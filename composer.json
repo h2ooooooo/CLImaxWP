@@ -1,0 +1,24 @@
+{
+  "name": "jalsoedesign/climax-wp",
+  "description": "Wordpress integration for CLImax",
+  "keywords": ["php", "cli", "climax", "command-line", "windows", "unix", "colour", "color", "wp", "wordpress"],
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andreas Jalsøe",
+      "email": "aj@seriousgames.net",
+      "homepage": "http://www.seriousgames.net",
+      "role": "developer"
+    }
+  ],
+  "dist": {
+    "url": "git@github.com:h2ooooooo/CLImaxWP.git",
+    "type": "vcs"
+  },
+  "autoload": {
+    "psr-4": {
+      "CLImax\\Wordpress": "./src/Wordpress"
+    }
+  }
+}
